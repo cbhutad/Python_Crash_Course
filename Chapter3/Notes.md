@@ -2,6 +2,7 @@
 
 ### List intricacies
 
+- All the list variable names must be plural form.
 - For a list in python the elements from last can be accessed using the negative indexes such as -1,-2 and so on where -1 indicates the index for last element.
 - List can contain elements of multiple data types in it. We cannot perform sort operation on such list.
 
