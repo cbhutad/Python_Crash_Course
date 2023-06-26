@@ -60,7 +60,7 @@ months.sort(reverse=True)
 
 ```
 
-7) sorted() -> Only prints the element of the list is sorted order but does not change the arrangement of list elements. To display the reverse order of sorting we can reverse = True as an argument to function call.
+7) sorted() -> Only prints the element of the list is sorted order but does not change the arrangement of list elements. To display the reverse order of sorting we can pass reverse = True as an argument to function call.
 
 ``` Python
 
