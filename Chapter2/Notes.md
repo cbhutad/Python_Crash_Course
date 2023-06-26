@@ -3,14 +3,14 @@
 ### Better to Know
 
 Number data type can be classified as integers or floats.
-	- Float is type displayed for operation of division between any combination of number types `integer/integer, float/integer and integer/float`
-	- The result of operation is always the float type is any of the operand is of float type.
+- Float is type displayed for operation of division between any combination of number types `integer/integer, float/integer and integer/float`
+- The result of operation is always the float type is any of the operand is of float type.
 
 ### Defintions
 
-**Traceback** is a record which shows where the interpreter ran into trouble while executing the python code.
-**Method** refers to an action which can be performed on a variable.
-**Whitespaces** refer to any nonprinting character such as _spaces, tabs or newlines._
+- **Traceback** is a record which shows where the interpreter ran into trouble while executing the python code.
+- **Method** refers to an action which can be performed on a variable.
+- **Whitespaces** refer to any nonprinting character such as _spaces, tabs or newlines._
 
 
 ### API's
@@ -26,14 +26,14 @@ String API encountered
 
 ``` Python
 
-	let message = "Hello "
-	message.strip() # if performed on terminal will display the whitespace removed
-	print(message) #prints 'Hello '. the original string in variable is unaffected.
+let message = "Hello "
+message.strip() # if performed on terminal will display the whitespace removed
+print(message) #prints 'Hello '. the original string in variable is unaffected.
 
-	message = message.strip()
-	print(message) #print 'Hello' the desired result is obtained.
+message = message.strip()
+print(message) #print 'Hello' the desired result is obtained.
 
-	# Same applies for rstrip,lstrip and strip API's.
+# Same applies for rstrip,lstrip and strip API's.
 
 ```
 
@@ -46,10 +46,10 @@ String API encountered
 
 ``` Python
 
-	#Syntax f is required to be followed by double quotes or single quotes.
+#Syntax f is required to be followed by double quotes or single quotes.
 
-	f"{} {}" #here the {} will include the variable names to be displayed when the result is executed.
-	f'{} {}'
+f"{} {}" #here the {} will include the variable names to be displayed when the result is executed.
+f'{} {}'
 	
 ```
 
@@ -57,8 +57,8 @@ String API encountered
 
 ``` Python
 	
-	message = f"{} {}"
-	f"{variable.title()} {}" #shows how API can be used on variables mentioned in f_strings
+message = f"{} {}"
+f"{variable.title()} {}" #shows how API can be used on variables mentioned in f_strings
 
 ```
 
