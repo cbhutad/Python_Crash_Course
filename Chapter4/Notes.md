@@ -10,7 +10,7 @@ for variablename in collectionname:
 
 ```
 
-Here the variablname can be anything but usually the preferred convetion is to use a name which aligns well with individual element in the collection.
+Here the variablname can be anything but usually the preferred convention is to use a name which aligns well with individual element in the collection.
 
 ### Common syntax errors observed with for loop
 
@@ -113,9 +113,9 @@ for number in numbers:
 
 List Comprehension approach:
 
-list_name => cubes
-operation_to_perform => number ** 3
-loop_over_quantities_code => for nummber in range(1,11)
+list_name => cubes\
+operation_to_perform => number ** 3\
+loop_over_quantities_code => for number in range(1,11)
 
 ``` Python
 
@@ -131,10 +131,10 @@ This feature allows us to work with sublist of list.
 
 - The syntax is `list_name[start_index:stop_index]`. Here both start_index and stop_index are optional. 
 - `list_name[start_index:stop_index]` returns list with elements whose index is from start_index to stop_index-1.
-- `list_name[:stop_index]` returns list of elements from start from list to the stop_index-1 elements.
+- `list_name[:stop_index]` returns list of elements from start of list to the stop_index-1 elements.
 - `list_name[start_index:]` return list of elements from start_index from list to the end of list.
 - We can also pass negative index as the start_index and stop_index in the syntax.
-- This feature allows us to make a copy of the list. This provides with what we call a deep copy(in java). 
+- `list_name[:] allows us to make a copy of the list. This provides with what we call a deep copy(in java). 
 
 ``` Python
 
@@ -149,7 +149,7 @@ print(numbers_copy)
 
 ##### Tuples
 
-This are called as immutable list. An tuple is list of elements which is ordered but the individual elements in the list cannot be modified. Only we can change the reference of the variable.
+This are called as immutable list. An tuple is list of elements which is ordered but the individual elements in the list cannot be modified. Only we can change the reference of the tuple variable.
 
 - Tuple are declared with paranthesis instead of square brackets.
 - If we try to modify an element from the tuple we get a TypeError.
@@ -175,6 +175,4 @@ dimesions = (3,) # for a single element tuple
 In python the ** operator is usually used to find square of a number but we can also find a respective power of a number by mentioning the number after this operator. 
 
 To find cube => 2 ** 3
-To find fourth power => 2 ** 4
-
-and so on.
+To find fourth power => 2 ** 4 and so on.
