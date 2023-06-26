@@ -134,7 +134,7 @@ This feature allows us to work with sublist of list.
 - `list_name[:stop_index]` returns list of elements from start of list to the stop_index-1 elements.
 - `list_name[start_index:]` return list of elements from start_index from list to the end of list.
 - We can also pass negative index as the start_index and stop_index in the syntax.
-- `list_name[:] allows us to make a copy of the list. This provides with what we call a deep copy(in java). 
+- `list_name[:]` allows us to make a copy of the list. This provides with what we call a deep copy(in java). 
 
 ``` Python
 
