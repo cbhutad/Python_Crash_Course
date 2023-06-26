@@ -26,7 +26,7 @@ person = {
 
 ```
 
-The last ending key-value pair also has comman at the end.
+The last ending key-value pair also has comma at the end. This is good practice as we can add new key:value pair dynamically and not get a syntax error.
 
 _Operations on dictionary_ : 
 
