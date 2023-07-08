@@ -18,3 +18,7 @@
 ### None
 
 1) Explain what is `None` in python
+
+### Handling list as arguments
+
+1) How does one preserve the original list which is being passed to the function as argument.
