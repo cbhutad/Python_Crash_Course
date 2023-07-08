@@ -27,3 +27,8 @@
 
 1) How do we use the arbitary number of arguments feature in python functions
 2) How to do the same but for keyword arguments.
+
+### Modules
+
+1) What are modules in python
+2) What are the different ways to import a module. For what reasons are this import ways beneficial
