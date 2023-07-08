@@ -22,3 +22,8 @@
 ### Handling list as arguments
 
 1) How does one preserve the original list which is being passed to the function as argument.
+
+### Using arbitary arguments in a function call
+
+1) How do we use the arbitary number of arguments feature in python functions
+2) How to do the same but for keyword arguments.

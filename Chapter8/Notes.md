@@ -16,3 +16,17 @@ describe_pets(pet_name="Harry")
 ```
 Here we will receive a Syntax error.
 
+### Arbitary number of arguments
+
+Whenever a variable arguments are being provided the other type of arguments we can use are positional arguments. In such cases keyword arguments are note allowed.
+
+``` Python
+
+def make_pizza(size, *toppings):
+    print(f"Making a pizza of size {size} with toppings:")
+    for topping in toppings:
+        print(f"{topping}")
+
+make_pizza(size="large", "mushrooms", "green peppers", "extra cheese") # this leads to error
+
+```
