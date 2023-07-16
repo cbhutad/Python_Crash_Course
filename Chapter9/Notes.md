@@ -72,3 +72,7 @@ Python allows us to organize classes using modules. This is similar to how we us
 The particular `from modulename import *` syntax should be avoided as first we don't know which classes are being used which can be done by specifying multiple class import syntax and also this can issues such as same identifier already being used in current file causing ambiguity.
 
 > Examples/Modules/electric_car.py for importing a module in another module.
+
+### Python standard library
+
+The python standard library are set of modules which are included with every python installation.
