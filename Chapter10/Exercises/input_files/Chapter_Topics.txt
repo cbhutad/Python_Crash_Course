@@ -1,0 +1,10 @@
+In python this are the topics i covered so far
+Basic syntax
+List and List comprehensions
+Dictionaries
+Strings
+Set
+User input
+loops
+Functions
+Classes
