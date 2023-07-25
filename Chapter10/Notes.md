@@ -28,4 +28,12 @@ There are 2 main functions on the file object which can be used to read the cont
 * readlines() -> This will return the contents of the file as list of lines. Now the file object is available only in the scope of `with` keyword. So in order to access it outside the scope we can use this method in order to store the content as list and operate on it later on.
 > Check pi_string.py example
 
+### Writing to a file
 
+In order to write to a file we must open it in either write, append or read & write modes. This can be specified as second parameter in the open() function.
+
+`w -> write`
+`a -> append`
+`r+ -> read and write`
+
+By default `r -> read` is default mode in which the file is opened. In case of `a` or append mode if the file does not exist a new file is created in the current folder. 
