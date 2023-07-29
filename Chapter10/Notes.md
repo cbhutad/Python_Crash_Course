@@ -28,6 +28,17 @@ There are 2 main functions on the file object which can be used to read the cont
 * readlines() -> This will return the contents of the file as list of lines. Now the file object is available only in the scope of `with` keyword. So in order to access it outside the scope we can use this method in order to store the content as list and operate on it later on.
 > Check pi_string.py example
 
+#### Arguments for open()
+
+* encoding - This argument must be used if the systems default encoding is different from the text file encoding.
+
+``` Python
+
+with open(filename,encoding="encoding") as file_obj:
+    #code
+
+```
+
 ### Writing to a file
 
 In order to write to a file we must open it in either write, append or read & write modes. This can be specified as second parameter in the open() function.
@@ -49,4 +60,4 @@ So the mechanism to perform exception handling in python involves the use of `tr
 2) except: This block represents a unique exception and is contains code that must be executed if the given exception does occur due to running of code in try block
 3) else: This block contains the code to be executed if try block was executed successfully without any exception.
 
-
+`pass` - This keyword is used if we don't want to execute any code when an exception occurs. So here in the except block instead of any error we just write pass and if exception occurs then it will be ignored.
