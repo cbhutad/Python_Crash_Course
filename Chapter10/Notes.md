@@ -36,4 +36,12 @@ In order to write to a file we must open it in either write, append or read & wr
 `a -> append`
 `r+ -> read and write`
 
-By default `r -> read` is default mode in which the file is opened. In case of `a` or append mode if the file does not exist a new file is created in the current folder. 
+By default `r -> read` is default mode in which the file is opened. In case of `a` or append mode if the file does not exist a new file is created in the current folder.
+
+### Exceptions and Handling
+
+When a program executes and it does not handle _exceptions_ (special objects generated to indicate the errors that occurred) the program will halt and generate a _traceback_ which includes the report of exception generated.
+
+The process of handling the exceptions in order to have a graceful exit of program and show a user friendly error messages instead of tracebacks we do _exception handling_.
+
+
