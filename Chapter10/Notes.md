@@ -44,4 +44,9 @@ When a program executes and it does not handle _exceptions_ (special objects gen
 
 The process of handling the exceptions in order to have a graceful exit of program and show a user friendly error messages instead of tracebacks we do _exception handling_.
 
+So the mechanism to perform exception handling in python involves the use of `try-except-else` blocks.
+1) try : This block will contain the code that might cause the exception.
+2) except: This block represents a unique exception and is contains code that must be executed if the given exception does occur due to running of code in try block
+3) else: This block contains the code to be executed if try block was executed successfully without any exception.
+
 
