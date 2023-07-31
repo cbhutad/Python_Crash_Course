@@ -61,3 +61,37 @@ So the mechanism to perform exception handling in python involves the use of `tr
 3) else: This block contains the code to be executed if try block was executed successfully without any exception.
 
 `pass` - This keyword is used if we don't want to execute any code when an exception occurs. So here in the except block instead of any error we just write pass and if exception occurs then it will be ignored.
+
+### Working with JSON
+
+In order to work with JSON data format, we can use the `json` module. 
+API's encountered are :
+
+1) dump() -> This will dump the data from a python list, dictionary or variable into a file with json extension. So the arguments to be passed are variable and file object (needs to be opened in write mode)
+
+``` Python
+
+import json
+
+nums = [1,2,3,4]
+file = "dummy.json"
+
+with open(file,"w") as file_obj:
+    json.dump(nums,file_obj)
+
+```
+
+2) load() -> reads the json extension file and returns the data that can be stored in a varibale in python. The file needs to be opened in read mode
+
+``` Python
+
+import json
+
+file = "dummy.json"
+
+with open(file,"r") as file_obj:
+    contents = json.load(file_obj)
+
+print(contents)
+
+```
