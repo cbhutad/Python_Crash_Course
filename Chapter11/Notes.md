@@ -67,4 +67,4 @@ While executing the test cases module in the output various characters are print
 
 In order to test class behaviour by testing their methods the approach is similar to testing of functions behaviors. Here we create a test class with methods to which will test the methods of the class we want to test. Here in order to actually test the methods of class in case we must first create object and add test data to the attributes in each of the test method. This can be done once before the calling of any `test_` methods by performing the setup of a object of the class and other data in attributes in special method `setUp()`. The object created and other changes done to the will be available to all the `test_` methods as they are attached to `self`.
 
-> check the no_setUp_testClass.py and setUp_testClass.py for more clarity.
+> check the no_setUp_testAnonymous.py and setUp_testAnonymous.py for more clarity.
