@@ -51,3 +51,20 @@ if __name__ == "__main__":
 Here the file where the test case is being imported is main.py then only name is set to main satifying the if condition and then only the testcase are executed else it would not be executed.
 
 Writing test cases from start are more beneficial in the long run as they ensure the any new code changes does not break the previous logic or else the code must be modified to support the backward compatibility.
+
+The various type of asserts one can perform are as follows
+1) assertEqual(a, b) -> asserts whether a and b are equal
+2) assertNotEqual(a, b) -> asserts whether a and b are not equal
+3) assertTrue(x) -> asserts whether x is True
+4) assertFalse(x) -> asserts whether y is True
+5) assertIn(item, list) -> asserts whether item is in list
+6) assertNotIn(item, list) -> asserts whether item is not in list 
+
+While executing the test cases module in the output various characters are printed. Here are their indications
+1) `.` -> Indicates successful execution of the test case.
+2) `E` -> Indicates an error is generated.
+3) `F` -> Indicates the test case assertions has failed.
+
+In order to test class behaviour by testing their methods the approach is similar to testing of functions behaviors. Here we create a test class with methods to which will test the methods of the class we want to test. Here in order to actually test the methods of class in case we must first create object and add test data to the attributes in each of the test method. This can be done once before the calling of any `test_` methods by performing the setup of a object of the class and other data in attributes in special method `setUp()`. The object created and other changes done to the will be available to all the `test_` methods as they are attached to `self`.
+
+> check the no_setUp_testAnonymous.py and setUp_testAnonymous.py for more clarity.
