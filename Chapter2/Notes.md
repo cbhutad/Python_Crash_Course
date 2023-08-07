@@ -92,6 +92,10 @@ print(c) # 3
 
 ```
 
+### String slicing
+
+- String are sequence of characters. We can use the slicing operation in order to obtain a substring of original string. The syntax is `stringvar[startposition : endposition]`. Will give substring from `startposition` to index `endposition-1`. `stringvar[:j]` gives substring from starting index as 0 till index j-1 whereas `stringvar[i:]` gives from start index i to last `index len(stringvar) - 1`. 
+
 ### Error's
 
 1) NameError -> This occurs if interpreter notices the varibale which is not defined and used, or other keyowords in the python program.
