@@ -5,6 +5,8 @@
 Number data type can be classified as integers or floats.
 - Float is type displayed for operation of division between any combination of number types `integer/integer, float/integer and integer/float`
 - The result of operation is always the float type is any of the operand is of float type.
+- In order to find quotient of a division operation one can use the `//` operator.
+- In order to determine the type of a value stored in variable x we can use the function `type()` with variable passed as argument. So in this case `type(x)`.
 
 ### Defintions
 
