@@ -62,6 +62,17 @@ So the mechanism to perform exception handling in python involves the use of `tr
 
 `pass` - This keyword is used if we don't want to execute any code when an exception occurs. So here in the except block instead of any error we just write pass and if exception occurs then it will be ignored.
 
+`raise` - This keyword is used to raise or throw an exception. Here we can throw in-built exceptions or custom exception. 
+
+``` Python
+
+if condition:
+    raise Exception(message) # Exception constructor should be passed the message to generate a custom exception.
+
+```
+
+`finally` - This keyword is used at the end of `try-except-else` block to execute code which must be always executed with or without previously encountered exceptions.
+
 ### Working with JSON
 
 In order to work with JSON data format, we can use the `json` module. 
