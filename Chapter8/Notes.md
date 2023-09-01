@@ -5,7 +5,7 @@
 ``` Python 
 
 def functionname(parameters):
-    #function boody
+    #function body
 
 ```
 
@@ -98,7 +98,7 @@ make_pizza("small","cheese","corn","capsicum")
 
 ```
 
-Here the arguments cheese, corn and capsicum are all part of variable arguments and will be stored in the toppings paramter. One should note that this arbitary argument parameter is of type tuple. So even if the arguments are repeated they wull stored once only.
+Here the arguments cheese, corn and capsicum are all part of variable arguments and will be stored in the toppings parameter. One should note that this arbitary argument parameter is of type tuple. So even if the arguments are repeated they will stored once only.
 
 One more type of such arbitary arguments is to provide a key-value pairs which can be stored in a dictionary. Such type of arbitary arguments parameter must be specified with the syntax `**parametername`. As specified this parameter will be a dictionary object.
 
