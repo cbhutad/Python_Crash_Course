@@ -1,1 +1,4 @@
 .vscode
+Chapter*/venv/
+Chapter*/__pycache__/
+*.png
